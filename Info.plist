@@ -4,20 +4,22 @@
 <dict>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
+	<key>CFBundleDisplayName</key>
+	<string>Dictionary</string>
 	<key>CFBundleExecutable</key>
-	<string>Dictionary Module</string>
+	<string>Dictionary Plugin</string>
 	<key>CFBundleIdentifier</key>
 	<string>com.blacktree.Quicksilver.QSDictionaryPlugIn</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>Dictionary Module</string>
+	<string>Dictionary Plugin</string>
 	<key>CFBundlePackageType</key>
 	<string>BNDL</string>
 	<key>CFBundleShortVersionString</key>
 	<string>1.1.4</string>
 	<key>CFBundleVersion</key>
-	<string>C1</string>
+	<string>C3</string>
 	<key>QSActions</key>
 	<dict>
 		<key>DictPluginDefineAction</key>
@@ -77,11 +79,9 @@
 		<key>author</key>
 		<string>Kevin Ballard</string>
 		<key>description</key>
-		<string>Adds a Define action to strings to fetch the definition from dict.org</string>
+		<string>Look words up in the dictionary or thesaurus</string>
 		<key>icon</key>
 		<string>com.apple.Dictionary</string>
-		<key>infoFile</key>
-		<string>Info.rtf</string>
 	</dict>
 	<key>QSRegistration</key>
 	<dict>

@@ -9,12 +9,17 @@
 /* Begin PBXBuildFile section */
 		0A1D9C8F07377C390069C3C4 /* NSMutableStringAdditions.h in Resources */ = {isa = PBXBuildFile; fileRef = 0A1D9C8D07377C390069C3C4 /* NSMutableStringAdditions.h */; };
 		0A1D9C9007377C390069C3C4 /* NSMutableStringAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A1D9C8E07377C390069C3C4 /* NSMutableStringAdditions.m */; };
-		0AB01F4B06CC52040073A3CD /* Info.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 0AB01F4A06CC52040073A3CD /* Info.rtf */; };
 		0AD38B7306BD148C00F45CFC /* ActionNames.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0AD38B1706BD0F2E00F45CFC /* ActionNames.strings */; };
 		0AD38B7406BD148C00F45CFC /* dict.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0AD38B0506BD0E3B00F45CFC /* dict.jpg */; };
-		7FB0A2E60935FD5E00F75926 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7FB0A2E50935FD5E00F75926 /* Info.plist */; };
 		7FB0A2E90935FD6700F75926 /* QSDictionaryPlugIn.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FB0A2E80935FD6700F75926 /* QSDictionaryPlugIn.m */; };
 		7FD0C5C00936064B00F5C459 /* QSDictionaryLookup in Resources */ = {isa = PBXBuildFile; fileRef = 7FD0C5BF0936064B00F5C459 /* QSDictionaryLookup */; };
+		D455642916B72617000B0C16 /* QSCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4A624BC16B7260200388815 /* QSCore.framework */; };
+		D4A624B216B7226D00388815 /* Common.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = D4A624AC16B7226D00388815 /* Common.xcconfig */; };
+		D4A624B316B7226D00388815 /* Debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = D4A624AD16B7226D00388815 /* Debug.xcconfig */; };
+		D4A624B416B7226D00388815 /* Developer.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = D4A624AE16B7226D00388815 /* Developer.xcconfig */; };
+		D4A624B516B7226D00388815 /* QSPlugIn.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = D4A624AF16B7226D00388815 /* QSPlugIn.xcconfig */; };
+		D4A624B616B7226D00388815 /* Release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = D4A624B116B7226D00388815 /* Release.xcconfig */; };
+		D4A624BB16B725C500388815 /* QSFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4A624BA16B725BB00388815 /* QSFoundation.framework */; };
 		E1EAB046068128A200774DFF /* DictPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = E1EAB045068128A200774DFF /* DictPlugin.m */; };
 /* End PBXBuildFile section */
 
@@ -26,38 +31,28 @@
 			remoteGlobalIDString = 8DD76FA10486AA7600D96B5E;
 			remoteInfo = QSDictionaryLookup;
 		};
-		4DAD2F3C0E12634600932F54 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4DAD2F360E12634600932F54 /* DictProtocolTest.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 8D1107320486CEB800E47090;
-			remoteInfo = DictProtocolTest;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0A1D9C8D07377C390069C3C4 /* NSMutableStringAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSMutableStringAdditions.h; sourceTree = "<group>"; };
 		0A1D9C8E07377C390069C3C4 /* NSMutableStringAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSMutableStringAdditions.m; sourceTree = "<group>"; };
-		0AB01F4A06CC52040073A3CD /* Info.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = Info.rtf; sourceTree = "<group>"; };
 		0AD38B0506BD0E3B00F45CFC /* dict.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dict.jpg; sourceTree = "<group>"; };
 		0AD38B1506BD0F2900F45CFC /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/ActionNames.strings; sourceTree = "<group>"; };
-		14A883F410CFC2E2007D08C4 /* Common.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Common.xcconfig; sourceTree = "<group>"; };
-		14A883F510CFC2E2007D08C4 /* Debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
-		14A883F610CFC2E2007D08C4 /* Developer.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Developer.xcconfig; sourceTree = "<group>"; };
-		14A883F710CFC2E2007D08C4 /* QSPlugIn_Debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = QSPlugIn_Debug.xcconfig; sourceTree = "<group>"; };
-		14A883F810CFC2E2007D08C4 /* QSPlugIn_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QSPlugIn_Prefix.pch; sourceTree = "<group>"; };
-		14A883F910CFC2E2007D08C4 /* QSPlugIn_Release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = QSPlugIn_Release.xcconfig; sourceTree = "<group>"; };
-		14A883FA10CFC2E2007D08C4 /* QSPlugIn.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = QSPlugIn.xcconfig; sourceTree = "<group>"; };
-		14A883FB10CFC2E2007D08C4 /* Release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
 		2B915FF41104230500A63CE5 /* DCSPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCSPrivate.h; sourceTree = "<group>"; };
-		32DBCF980370C29C00C91783 /* DictPlugin_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DictPlugin_Prefix.pch; sourceTree = "<group>"; };
 		4DAD2F2D0E12633B00932F54 /* QSDictionaryLookup.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = QSDictionaryLookup.xcodeproj; path = QSDictionaryLookupProject/QSDictionaryLookup.xcodeproj; sourceTree = "<group>"; };
-		4DAD2F360E12634600932F54 /* DictProtocolTest.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = DictProtocolTest.xcodeproj; sourceTree = "<group>"; };
 		7FB0A2E50935FD5E00F75926 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7FB0A2E70935FD6700F75926 /* QSDictionaryPlugIn.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = QSDictionaryPlugIn.h; sourceTree = "<group>"; };
 		7FB0A2E80935FD6700F75926 /* QSDictionaryPlugIn.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = QSDictionaryPlugIn.m; sourceTree = "<group>"; };
 		7FD0C5BF0936064B00F5C459 /* QSDictionaryLookup */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = QSDictionaryLookup; sourceTree = "<group>"; };
-		8D1AC9740486D14A00FE50C9 /* Dictionary Module.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dictionary Module.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D1AC9740486D14A00FE50C9 /* Dictionary Plugin.qsplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dictionary Plugin.qsplugin"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4A624AC16B7226D00388815 /* Common.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Common.xcconfig; sourceTree = "<group>"; };
+		D4A624AD16B7226D00388815 /* Debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
+		D4A624AE16B7226D00388815 /* Developer.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Developer.xcconfig; sourceTree = "<group>"; };
+		D4A624AF16B7226D00388815 /* QSPlugIn.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = QSPlugIn.xcconfig; sourceTree = "<group>"; };
+		D4A624B016B7226D00388815 /* Quicksilver.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Quicksilver.pch; sourceTree = "<group>"; };
+		D4A624B116B7226D00388815 /* Release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
+		D4A624BA16B725BB00388815 /* QSFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = QSFoundation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4A624BC16B7260200388815 /* QSCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = QSCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1EAB045068128A200774DFF /* DictPlugin.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = DictPlugin.m; sourceTree = "<group>"; };
 		E1EAB047068128A800774DFF /* DictPlugin.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = DictPlugin.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -67,6 +62,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4A624BB16B725C500388815 /* QSFoundation.framework in Frameworks */,
+				D455642916B72617000B0C16 /* QSCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,7 +73,6 @@
 		0259C574FE90428111CA0C5A /* DictPlugin */ = {
 			isa = PBXGroup;
 			children = (
-				4DAD2F360E12634600932F54 /* DictProtocolTest.xcodeproj */,
 				4DAD2F2D0E12633B00932F54 /* QSDictionaryLookup.xcodeproj */,
 				4D0C0D840E0FC0480027D189 /* Configuration */,
 				32DBCF9E0370C38000C91783 /* Classes */,
@@ -93,7 +89,6 @@
 			children = (
 				7FD0C5BF0936064B00F5C459 /* QSDictionaryLookup */,
 				7FB0A2E50935FD5E00F75926 /* Info.plist */,
-				0AB01F4A06CC52040073A3CD /* Info.rtf */,
 				0AD38B1706BD0F2E00F45CFC /* ActionNames.strings */,
 				0AD38B0506BD0E3B00F45CFC /* dict.jpg */,
 			);
@@ -103,7 +98,7 @@
 		1ED78706FE9D4A0611CA0C5A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8D1AC9740486D14A00FE50C9 /* Dictionary Module.bundle */,
+				8D1AC9740486D14A00FE50C9 /* Dictionary Plugin.qsplugin */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -111,6 +106,8 @@
 		2E58F364FFB232C311CA0CBA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D4A624BC16B7260200388815 /* QSCore.framework */,
+				D4A624BA16B725BB00388815 /* QSFoundation.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -131,7 +128,6 @@
 		32DBCF9F0370C38200C91783 /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
-				32DBCF980370C29C00C91783 /* DictPlugin_Prefix.pch */,
 				2B915FF41104230500A63CE5 /* DCSPrivate.h */,
 			);
 			name = "Other Sources";
@@ -140,30 +136,21 @@
 		4D0C0D840E0FC0480027D189 /* Configuration */ = {
 			isa = PBXGroup;
 			children = (
-				14A883F410CFC2E2007D08C4 /* Common.xcconfig */,
-				14A883F510CFC2E2007D08C4 /* Debug.xcconfig */,
-				14A883F610CFC2E2007D08C4 /* Developer.xcconfig */,
-				14A883F710CFC2E2007D08C4 /* QSPlugIn_Debug.xcconfig */,
-				14A883F810CFC2E2007D08C4 /* QSPlugIn_Prefix.pch */,
-				14A883F910CFC2E2007D08C4 /* QSPlugIn_Release.xcconfig */,
-				14A883FA10CFC2E2007D08C4 /* QSPlugIn.xcconfig */,
-				14A883FB10CFC2E2007D08C4 /* Release.xcconfig */,
+				D4A624AC16B7226D00388815 /* Common.xcconfig */,
+				D4A624AD16B7226D00388815 /* Debug.xcconfig */,
+				D4A624AE16B7226D00388815 /* Developer.xcconfig */,
+				D4A624AF16B7226D00388815 /* QSPlugIn.xcconfig */,
+				D4A624B016B7226D00388815 /* Quicksilver.pch */,
+				D4A624B116B7226D00388815 /* Release.xcconfig */,
 			);
-			path = Configuration;
-			sourceTree = QS_SOURCE_ROOT;
+			name = Configuration;
+			path = /private/tmp/QS/Configuration;
+			sourceTree = "<absolute>";
 		};
 		4DAD2F2E0E12633B00932F54 /* Products */ = {
 			isa = PBXGroup;
 			children = (
 				4DAD2F350E12633B00932F54 /* QSDictionaryLookup */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		4DAD2F370E12634600932F54 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				4DAD2F3D0E12634600932F54 /* DictProtocolTest.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -187,7 +174,7 @@
 			name = "Dictionary Module";
 			productInstallPath = "$(HOME)/Developer/Palettes";
 			productName = DictPlugin;
-			productReference = 8D1AC9740486D14A00FE50C9 /* Dictionary Module.bundle */;
+			productReference = 8D1AC9740486D14A00FE50C9 /* Dictionary Plugin.qsplugin */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -205,10 +192,6 @@
 			mainGroup = 0259C574FE90428111CA0C5A /* DictPlugin */;
 			projectDirPath = "";
 			projectReferences = (
-				{
-					ProductGroup = 4DAD2F370E12634600932F54 /* Products */;
-					ProjectRef = 4DAD2F360E12634600932F54 /* DictProtocolTest.xcodeproj */;
-				},
 				{
 					ProductGroup = 4DAD2F2E0E12633B00932F54 /* Products */;
 					ProjectRef = 4DAD2F2D0E12633B00932F54 /* QSDictionaryLookup.xcodeproj */;
@@ -229,13 +212,6 @@
 			remoteRef = 4DAD2F340E12633B00932F54 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		4DAD2F3D0E12634600932F54 /* DictProtocolTest.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = DictProtocolTest.app;
-			remoteRef = 4DAD2F3C0E12634600932F54 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
 /* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
@@ -245,10 +221,13 @@
 			files = (
 				0AD38B7306BD148C00F45CFC /* ActionNames.strings in Resources */,
 				0AD38B7406BD148C00F45CFC /* dict.jpg in Resources */,
-				0AB01F4B06CC52040073A3CD /* Info.rtf in Resources */,
 				0A1D9C8F07377C390069C3C4 /* NSMutableStringAdditions.h in Resources */,
-				7FB0A2E60935FD5E00F75926 /* Info.plist in Resources */,
 				7FD0C5C00936064B00F5C459 /* QSDictionaryLookup in Resources */,
+				D4A624B216B7226D00388815 /* Common.xcconfig in Resources */,
+				D4A624B316B7226D00388815 /* Debug.xcconfig in Resources */,
+				D4A624B416B7226D00388815 /* Developer.xcconfig in Resources */,
+				D4A624B516B7226D00388815 /* QSPlugIn.xcconfig in Resources */,
+				D4A624B616B7226D00388815 /* Release.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,30 +276,38 @@
 /* Begin XCBuildConfiguration section */
 		7F07ADEA085E432400E2AFC4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 14A883F710CFC2E2007D08C4 /* QSPlugIn_Debug.xcconfig */;
+			baseConfigurationReference = D4A624AF16B7226D00388815 /* QSPlugIn.xcconfig */;
 			buildSettings = {
-				PRODUCT_NAME = "Dictionary Module";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/tmp/QS/build/Release,
+				);
+				PRODUCT_NAME = "Dictionary Plugin";
 			};
 			name = Debug;
 		};
 		7F07ADEB085E432400E2AFC4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 14A883F910CFC2E2007D08C4 /* QSPlugIn_Release.xcconfig */;
+			baseConfigurationReference = D4A624AF16B7226D00388815 /* QSPlugIn.xcconfig */;
 			buildSettings = {
-				PRODUCT_NAME = "Dictionary Module";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/tmp/QS/build/Release,
+				);
+				PRODUCT_NAME = "Dictionary Plugin";
 			};
 			name = Release;
 		};
 		7F07ADEE085E432400E2AFC4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 14A883F510CFC2E2007D08C4 /* Debug.xcconfig */;
+			baseConfigurationReference = D4A624AD16B7226D00388815 /* Debug.xcconfig */;
 			buildSettings = {
 			};
 			name = Debug;
 		};
 		7F07ADEF085E432400E2AFC4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 14A883FB10CFC2E2007D08C4 /* Release.xcconfig */;
+			baseConfigurationReference = D4A624B116B7226D00388815 /* Release.xcconfig */;
 			buildSettings = {
 			};
 			name = Release;
