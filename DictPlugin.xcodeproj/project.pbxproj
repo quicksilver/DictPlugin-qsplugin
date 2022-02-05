@@ -165,7 +165,6 @@
 				8D1AC9660486D14A00FE50C9 /* Resources */,
 				8D1AC96A0486D14A00FE50C9 /* Sources */,
 				8D1AC96E0486D14A00FE50C9 /* Frameworks */,
-				E1022B2806B3475D00299BEC /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -182,11 +181,19 @@
 /* Begin PBXProject section */
 		0259C573FE90428111CA0C5A /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+				TargetAttributes = {
+					8D1AC9600486D14A00FE50C9 = {
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
 			buildConfigurationList = 7F07ADED085E432400E2AFC4 /* Build configuration list for PBXProject "DictPlugin" */;
 			compatibilityVersion = "Xcode 2.4";
 			developmentRegion = English;
 			hasScannedForEncodings = 1;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 0259C574FE90428111CA0C5A /* DictPlugin */;
@@ -232,22 +239,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		E1022B2806B3475D00299BEC /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 8;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 1;
-			shellPath = /bin/sh;
-			shellScript = "$SRCROOT/bltrversion $INFOPLIST_FILE";
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8D1AC96A0486D14A00FE50C9 /* Sources */ = {
