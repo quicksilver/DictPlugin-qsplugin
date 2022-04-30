@@ -15,20 +15,25 @@
 
 @implementation QSDictionaryPlugIn
 - (void)lookupWord:(NSString *)word inDictionary:(NSString *)dictName{
-  NSURL *dictURL = [NSURL fileURLWithPath:[NSString stringWithFormat:@"/Library/Dictionaries/%@.dictionary",dictName]];
-  DCSDictionaryRef dict = NULL;
-  if (dictURL) dict = DCSDictionaryCreate(dictURL);
-  HIDictionaryWindowShow(dict,word,CFRangeMake(0,[word length]),NULL,CGPointMake(0,0),NO,NULL);
+	NSURL *dictURL = [NSURL fileURLWithPath:[NSString stringWithFormat:@"/Library/Dictionaries/%@.dictionary",dictName]];
+	DCSDictionaryRef dict = NULL;
+	if (dictURL) {
+		dict = DCSDictionaryCreate((CFURLRef)dictURL);
+	}
+	CGEventRef event = CGEventCreate(NULL);
+	CGPoint point = CGEventGetLocation(event);
+	CFRelease(event);
+	HIDictionaryWindowShow(dict, word, CFRangeMake(0,[word length]), NULL, point, NO, NULL);
 }
 
 - (QSObject *)lookupWordInDictionary:(QSObject *)dObject{
-    [self lookupWord:[dObject stringValue] inDictionary:DICTIONARY_NAME];
-    return nil;
+	[self lookupWord:[dObject stringValue] inDictionary:DICTIONARY_NAME];
+	return nil;
 }
 
 - (QSObject *)lookupWordInThesaurus:(QSObject *)dObject{
-    [self lookupWord:[dObject stringValue] inDictionary:THESAURUS_NAME];
-    return nil;
+	[self lookupWord:[dObject stringValue] inDictionary:THESAURUS_NAME];
+	return nil;
 }
 
 @end

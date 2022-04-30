@@ -55,7 +55,7 @@ void showResultsWindow(NSString *input, NSString *title, id delegate);
 	}
 	// Create a task
 	dictTaskStatus = [[NSString alloc] initWithFormat:@"Define: %@",
-													  [dObject objectForType:NSStringPboardType]];
+					  [dObject objectForType:NSPasteboardTypeString]];
 	[[QSTaskController sharedInstance] updateTask:kDictTaskID status:dictTaskStatus progress:0];
 	// Start a new definition
 	dictTask = [[NSTask alloc] init];

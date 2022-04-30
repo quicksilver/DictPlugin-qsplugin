@@ -189,8 +189,8 @@ struct OpaqueDCMObjectRef;
 #define WRAPPERSTRING @"<html xmlns=\"http://www.w3.org/1999/xhtml\"><head><meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\" /><title></title><style type=\"text/css\">@import \"file://localhost/Library/Widgets/Dictionary.wdgt/DictionaryData.css\";</style></head><body>%@</body></html>"
 int main (int argc, const char * argv[]) {
     NSAutoreleasePool * pool = [[NSAutoreleasePool alloc] init];
-    if(argc < 1) {
-        NSLog(@"%s needs 1 or 2 arguments.", basename(argv[0]));
+    if(argc < 2) {
+        NSLog(@"%c needs 1 or 2 arguments.", basename(argv[0]));
         return EXIT_SUCCESS;
     }
 	NSString *word = [NSString stringWithUTF8String:argv[1]];
